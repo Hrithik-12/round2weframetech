@@ -76,7 +76,7 @@ const menuItems = [
 export const Sidebar = () => {
     const pathname = usePathname();
     return (
-        <aside className="max-w-2xl h-screen bg-white border-r border-gray-200 shadow-sm flex flex-col">
+        <aside className="max-w-2xl h-screen p-2 bg-white border-r border-gray-200 shadow-sm flex flex-col">
             
 
             {/* Navigation Links */}
@@ -105,11 +105,11 @@ export const Sidebar = () => {
                 </nav>
             </div>
 
-            {/* Support Section */}
-            <div className="p-4 border-t border-gray-100">
+       
+            <div className="p-4 border-1 rounded-xl hover:bg-indigo-800  border-gray-100">
                 <Link
                     href="/support"
-                    className="flex items-center gap-4 px-6 py-3 rounded-xl text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-all duration-200"
+                    className="flex items-center gap-4 px-5  rounded-xl text-gray-600  hover:text-gray-900 transition-all duration-200"
                 >
                     <MessageCircle size={20} className="text-gray-400" />
                     <span>Contact Support</span>

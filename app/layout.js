@@ -23,20 +23,24 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex bg-gray-50`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen overflow-hidden`}>
         {/* Sidebar */}
-        <aside className="fixed inset-y-0 left-0 w-72">
+        <aside className="fixed inset-y-0 left-0 w-64">
           <Sidebar />
         </aside>
 
         {/* Main content */}
-        <div className="flex-1 pl-72">
-          <div className="flex flex-col min-h-screen">
-            <Header />
-            <div className="flex-1 overflow-auto">
+        <div className="ml-64 relative flex flex-col h-screen">
+          <Header />
+          <div className="flex-1 overflow-auto">
+            <div className="max-w-full">
               <Headbarcompo />
               <TabSwitcher />
-              <main className="px-6">{children}</main>
+              <main className="px-6">
+                <div className="max-w-[calc(100vw-16rem)]">
+                  {children}
+                </div>
+              </main>
             </div>
           </div>
         </div>
