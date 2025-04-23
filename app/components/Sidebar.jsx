@@ -99,15 +99,16 @@ export function Sidebar() {
         })}
       </nav>
 
-      <div className="mt-auto  border-[1px] rounded-full hover:bg-indigo-950 hover:text-white  pt-4">
-        <Link
-          href="/"
-          className="flex   gap-4 px-2 py-2 rounded-lg  transition"
-        >
-          <MessageCircle size={20} className="text-gray-400" />
-          <span>Contact Support</span>
-        </Link>
-      </div>
+      <div className="mt-auto border border-gray-200 rounded-full hover:bg-indigo-950 hover:text-white transition-colors">
+  <Link
+    href="/"
+    className="flex items-center gap-2 px-4 py-2 rounded-full"
+  >
+    <MessageCircle size={20} className="text-gray-400 group-hover:text-white transition-colors" />
+    <span className="text-sm">Contact Support</span>
+  </Link>
+</div>
+
     </div>
   );
 }
