@@ -11,7 +11,7 @@ export default function SidebarWrapper() {
     <>
       <button
         className="md:hidden fixed top-4 left-4 z-50 bg-white p-2 rounded shadow"
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen(!isOpen)} aria-label='hamburgermenu'
       >
         <Menu size={24} />
       </button>

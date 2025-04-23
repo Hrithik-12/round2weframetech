@@ -118,9 +118,9 @@ export default function StoryCard({ story }) {
 
         <div className="mt-auto">
           <div className="p-3">
-            <h3 className="text-sm font-semibold truncate text-white">
+            <h2 className="text-sm font-semibold truncate text-white">
               {title}
-            </h3>
+            </h2>
             <div className="flex items-center justify-between mt-1">
               <div className="flex items-center gap-1 text-xs text-gray-200 whitespace-nowrap">
                 <span className="font-bold text-white">{category}</span>

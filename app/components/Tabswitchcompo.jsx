@@ -28,7 +28,7 @@ export default function TabSwitcher() {
               }`}
             >
               <span>{tab.label}</span>
-              <span className={`ml-1 ${isActive ? "text-white" : "text-gray-500"}`}>
+              <span className={`ml-1 ${isActive ? "text-white" : "text-gray-800 bg-white "}`}>
                 ({tab.count.toLocaleString()})
               </span>
             </button>

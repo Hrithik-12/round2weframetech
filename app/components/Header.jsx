@@ -6,7 +6,7 @@ export const Header = () => {
   return (
 <header className="pl-14 sm:pl-0 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 px-4 sm:px-6 md:px-8 py-4 bg-white border-b border-gray-200 shadow-sm w-full">    {/* Left side: Back arrow and title */}
     <div className="flex items-center gap-3">
-      <Link href="/">
+      <Link aria-label='Back' href="/">
         <ArrowLeft size={24} className="text-gray-700 hover:text-gray-900" />
       </Link>
       <h1 className="text-xl font-semibold text-gray-800">Stories</h1>
