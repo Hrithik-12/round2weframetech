@@ -75,6 +75,8 @@ export const stories = [
   }
 ];
 
+
+
 export default function StoryCard({ story }) {
   const { title, category, date, status, views, image } = story;
 
@@ -92,16 +94,17 @@ export default function StoryCard({ story }) {
   };
 
   return (
-    <div className="relative rounded-lg overflow-hidden shadow-md w-64 h-[400px]">
+    <div className="relative border-[1px] border-gray-400 rounded-xl overflow-hidden shadow-md w-full h-[380px] sm:h-[420px] transform transition-transform duration-300 ease-in-out hover:translate-y-3 hover:shadow-xl hover:scale-105">
       <img
         src={image}
         alt={title}
         className="absolute inset-0 w-full h-full object-cover"
       />
-      
-      <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
 
-      <div className="relative h-full flex flex-col">
+      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+
+      <div className="relative h-full flex flex-col justify-between">
+  
         <div className="absolute top-2 right-2 flex gap-2">
           <div className="flex items-center bg-white/80 px-2 py-1 rounded-lg text-xs font-medium gap-1">
             <Eye className="w-3 h-3" />
@@ -111,6 +114,7 @@ export default function StoryCard({ story }) {
             <BarChart className="w-3 h-3" />
           </div>
         </div>
+
 
         <div className="mt-auto">
           <div className="p-3">
@@ -130,7 +134,7 @@ export default function StoryCard({ story }) {
           </div>
 
           <div className="px-4 pb-4 gap-2 flex items-center justify-between">
-            <button className="bg-white/90 text-indigo-900 px-6 py-2 rounded-lg font-medium text-sm w-[80%]">
+            <button className="bg-white/90 text-indigo-900 px-5 py-2 rounded-lg font-medium text-sm w-full sm:w-[80%]">
               View
             </button>
             <button className="bg-white/90 px-3 py-1.5 rounded-lg">
@@ -142,3 +146,5 @@ export default function StoryCard({ story }) {
     </div>
   );
 }
+
+    
