@@ -1,4 +1,5 @@
 import { Eye, BarChart } from "lucide-react";
+import Image from "next/image";
 
 export const stories = [
   {
@@ -95,7 +96,7 @@ export default function StoryCard({ story }) {
 
   return (
     <div className="relative border-[1px] border-gray-400 rounded-xl overflow-hidden shadow-md w-full h-[380px] sm:h-[420px] transform transition-transform duration-300 ease-in-out hover:translate-y-3 hover:shadow-xl hover:scale-105">
-      <img
+      <Image
         src={image}
         alt={title}
         width={600}

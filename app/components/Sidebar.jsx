@@ -99,7 +99,7 @@ export function Sidebar() {
         })}
       </nav>
 
-      <div className="mt-auto border border-gray-200 rounded-full hover:bg-indigo-950 hover:text-white transition-colors">
+<div className="mt-auto border border-gray-200 rounded-full hover:bg-indigo-950 hover:text-white transition-colors">
   <Link
     href="/"
     className="flex items-center gap-2 px-4 py-2 rounded-full"
@@ -108,6 +108,7 @@ export function Sidebar() {
     <span className="text-sm">Contact Support</span>
   </Link>
 </div>
+
 
     </div>
   );
