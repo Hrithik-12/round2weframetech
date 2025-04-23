@@ -22,4 +22,7 @@ https://round2weframetech.vercel.app/
 
 ## Screenshot
 <img width="1470" alt="Screenshot 2025-04-23 at 10 27 54 PM" src="https://github.com/user-attachments/assets/349ac7b2-7530-4b0a-a326-c978ba5bac67" />
+---
+## Light House Score
+https://pagespeed.web.dev/analysis/https-round2weframetech-vercel-app/egupiikrgg?form_factor=desktop
 
