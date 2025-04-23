@@ -102,7 +102,7 @@ export default function StoryCard({ story }) {
         width={600}
         height={400}
         className="absolute inset-0 w-full h-full object-cover"
-        loading="lazy"
+        priority
         style={{ filter: "brightness(0.7)" }}
       />
 
