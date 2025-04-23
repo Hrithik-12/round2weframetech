@@ -8,7 +8,7 @@ export const stories = [
     date: "20 Sep 2022",
     status: "Published",
     views: 428,
-    image: "/img1.jpg"
+    image: "/img1.webp"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const stories = [
     date: "15 Sep 2022",
     status: "Draft",
     views: 1250,
-    image: "/img2.jpg"
+    image: "/img2.webp"
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ export const stories = [
     date: "18 Sep 2022",
     status: "Published",
     views: 892,
-    image: "/img3.jpg"
+    image: "/img3.webp"
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ export const stories = [
     date: "22 Sep 2022",
     status: "Pending",
     views: 675,
-    image: "/img4.jpg"
+    image: "/img4.webp"
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ export const stories = [
     date: "25 Sep 2022",
     status: "Published",
     views: 1102,
-    image: "/img5.jpg"
+    image: "/img5.webp"
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const stories = [
     date: "28 Sep 2022",
     status: "Published",
     views: 934,
-    image: "/img6.jpg"
+    image: "/img6.webp"
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ export const stories = [
     date: "30 Sep 2022",
     status: "Draft",
     views: 445,
-    image: "/img7.jpg"
+    image: "/img7.webp"
   },
   {
     id: 8,
@@ -71,7 +71,7 @@ export const stories = [
     date: "1 Oct 2022",
     status: "Published",
     views: 778,
-    image: "/img8.jpg"
+    image: "/img8.webp"
   }
 ];
 
