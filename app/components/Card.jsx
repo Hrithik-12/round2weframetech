@@ -98,10 +98,11 @@ export default function StoryCard({ story }) {
       <img
         src={image}
         alt={title}
+        width={600}
+        height={400}
         className="absolute inset-0 w-full h-full object-cover"
-        priority
         loading="lazy"
-        style={{ filter: "brightness(0.7)" }} // Adjust brightness for better text visibility
+        style={{ filter: "brightness(0.7)" }}
       />
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
