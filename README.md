@@ -1,4 +1,4 @@
-# Round2 Weframe Tech — Figma to Code
+# Round2 Weframe Tech 
 
 This project is a **UI implementation** of a Figma design provided for Round 2 of the Weframe Tech assignment. It uses **Next.js** and **Tailwind CSS** to create a pixel-perfect frontend based on the design specifications.
 
